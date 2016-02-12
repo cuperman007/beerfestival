@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en"><!-- InstanceBegin template="/Templates/Site.dwt" codeOutsideHTMLIsLocked="true" -->
+    <head>
+    	
+        
+        <meta charset="utf-8">
+	    <meta name="msvalidate.01" content="B9B1EF3E1C7FBD63CB74D8D9100396BC" />
+	    <meta name="google-site-verification" content="A96QJBIOoI99YLi1ssFbFDMNJ1MLAL0eylJnFV_xMOg" />
+		<!-- InstanceBeginEditable name="doctitle" -->
+        <title>Festival Ales & Ciders | Penkridge Beer Festival 2013</title>
+        <!-- InstanceEndEditable -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- InstanceBeginEditable name="description" -->
+        <meta name="description" content="Details of the Ales, Beers and Ciders that will be in stock for the 2013 Penkridge Beer Festival">
+		<!-- InstanceEndEditable -->
+
+        <!-- Le styles -->
+        <link href="/assets/css/bootstrap.css" rel="stylesheet">
+        <link href="/assets/css/roundtable.css" rel="stylesheet">
+        <link href="/assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="/assets/css/cookiecuttr.css" rel="stylesheet">
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <!-- Le fav and touch icons -->
+        <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>	
+        
+        <!-- InstanceBeginEditable name="head" -->
+        <script src='https://cdn.firebase.com/v0/firebase.js'></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.3.0/knockout-min.js" ></script>
+
+        <!-- InstanceEndEditable -->
+    </head>
+    <body>
+        <form runat="server">
+            <div class="navbar navbar-fixed-top">
+                <div class="navbar-inner">
+                    <a href="http://www.penkridge.roundtable.co.uk/">
+                        <img src="/assets/img/prt-navbar-logo.jpg" />
+                    </a>
+                    <ul class="nav nav-pills pull-right">
+                        <li><a href="http://www.penkridge.roundtable.co.uk/events/">Events</a></li>
+                        <li><a href="http://www.penkridge.roundtable.co.uk/events/2942/penkridge-fun-run-and-fun-day/">Fun Run & Fun Day</a> </li>
+                        <li><a href="http://www.penkridgebeerfestival.co.uk">Beer Festival</a> </li>
+                    </ul>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+            <div class="container">
+                <br/>
+                <div class="row">
+                    <!-- Main hero unit for a primary marketing message or call to action -->
+                    <div class="span2" >
+                        <img src="/assets/img/beerfest_med.png" />
+                    </div>
+                    <div class="span7">                
+                        <div id="headerCarousel" class="carousel">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="/assets/img/banner_main.jpg" alt="">
+                                    <div class="carousel-caption">
+                                        <p>This years beer festival is coming... try and stay calm...</p>                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/banner_glass.jpg" alt="">
+
+                                    <div class="carousel-caption">
+                                        <p>
+                                            Our festival glasses have been kindly sponsored by the Horse and Jockey<br/> and every visitor receives a free commemorative glass! <a data-toggle="modal" href="#goldSponsor" class="btn btn-mini btn-warning pull-right">Tell me more &raquo;</a></p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/banner_tshirt.jpg" alt="">
+                                    <div class="carousel-caption">
+                                        <p>
+                                            We'll be the smartest draymen in the Black Country with our <br/> t-shirts, which have been sponsored by Trafalgar Properties.
+                                            <a data-toggle="modal" class="btn btn-inverse btn-mini pull-right" href="#tshirtSponsor">View details &raquo;</a></p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/banner_programme.jpg" alt="">
+                                    <div class="carousel-caption">
+                                        <p>
+                                            You'll have all the tasting notes and sponsors information in our shiny programme sponsored by DSN Accountants. <a data-toggle="modal" class="btn btn-mini btn-inverse pull-right" href="#programmeSponsor">Tell me more &raquo;</a></p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/banner_stage.jpg" alt="">
+                                    <div class="carousel-caption">
+                                        <p>
+                                            There are two bands blowing the roof off the festival this year...  luckily the stage is sponsored this year by Storm Industrial Roofing.. so we'll be covered again in no time.                                            <a data-toggle="modal" class="btn btn-inverse btn-mini pull-right" href="#stageSponsor">Tell me more &raquo;</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel nav -->
+                            <a class="carousel-control left" href="#headerCarousel" data-slide="prev">&lsaquo;</a> 
+                            <a class="carousel-control right" href="#headerCarousel" data-slide="next">&rsaquo;</a>
+                        </div>
+                    </div>
+                    <div class="span3">
+                        <div class="alert">
+                                Our gold sponsor:
+                            <h2>Horse and Jockey</h2>
+                            <p>The festival glasses have been supplied by the Horse and Jockey <br/> Supporting the 2013 Penkridge Beer Festival and a load of local causes!</p>
+                            <p><a data-toggle="modal" href="#goldSponsor" class="btn btn-warning">Tell me more &raquo;</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                &nbsp;</div>
+            <div class="container">
+              <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="container">
+                            <div class="nav-collapse">
+                                <ul class="nav">
+                                    <li class="active"><a href="/">Home</a></li>
+                                    <li><a href="/beers">Beers</a></li>
+                                    <li><a href="/tickets">Tickets</a></li>
+                                    <li><a href="/location">Location</a></li>
+                                    <li><a href="/sponsors">Sponsors</a></li>
+                                    <li><a href="/brewery">Brewery</a></li>
+                                    <li><a href="/about-roundtable">Roundtable</a></li>
+                                    <li><a href="/contact-us">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <!--/.nav-collapse -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="span12">
+                    	<h2 style="color:#F00">SOLD OUT</h2>
+                        <p style="color:#F00">Tickets are now sold out on both Friday and Saturday night. We have opened a waiting list, please get in touch. The Saturday afternoon session will be open as normal, and entrance is on a first come first served basis.</p>
+                    </div>
+                </div>
+                
+                <!-- -------------------------------------------------------------------------->
+                <!-- InstanceBeginEditable name="Content" -->
+
+
+                <script>
+
+                    var BeersVM = function () {
+                        var self = this;
+                        self.breweries = ko.observableArray();
+
+                        self.loadJson = function () {
+                            $.getJSON('https://penkridge-beer-festival.firebaseio.com/breweries.json', function(results) {
+                                self.breweries(results.breweries);
+                            });
+                        };
+                    };
+
+                    var vm = new BeersVM();
+                    ko.applyBindings(vm); // This makes Knockout get to work
+
+                    vm.loadJson();
+
+                </script>
+
+                <div data-bind="foreach: breweries">
+                 <span data-bind="text: name"></span>
+                </div>
+
+				<hr />
+				<h2>The brewery selection</h2>
+				<p><a href="brewery.aspx">The Titanic brewery</a> are helping us organise the festival this year and we will be stocking a few of their ales too, for example;</p>
+
+				<ul class="thumbnails">
+				    <li class="span3">
+				        <div class="thumbnail">
+				            <a href="http://www.titanicbrewery.co.uk/p/our-beers/titanic-beer-mild.html" alt="More about Titanic Mild">
+				                <img src="http://www.titanicbrewery.co.uk/_images/_product/clip/35.png" alt="Titanic Mild - Pump logo">
+				            </a>
+				            <h3>Mild</h3>
+				            <p><b>ABV 3.5%</b></p>
+				            <p>A mild of classic style full of roast malt and balanced by delicate hops. True to type it has a rounded sweetness and a smooth dry finish.</p>
+				        </div>
+				    </li>
+				    <li class="span3">
+				        <div class="thumbnail">
+				            <a href="http://www.titanicbrewery.co.uk/p/our-beers/titanic-beer-lifeboat.html" alt="More about Titanic Lifeboat">
+				                <img src="http://www.titanicbrewery.co.uk/_images/_product/clip/38.png" alt="Titanic Lifeboat - Pump logo">
+				            </a>
+				            <h3>Lifeboat</h3>
+				            <p><b>ABV 4.0%</b></p>
+				            <p>A mild of classic style full of roast malt and balanced by delicate hops. True to type it has a rounded sweetness and a smooth dry finish.</p>
+				        </div>
+				    </li>
+				    <li class="span3">
+				        <div class="thumbnail">
+				            <a href="http://www.titanicbrewery.co.uk/p/our-beers/titanic-beer-stout.html" alt="More about Titanic Stout">
+				                <img src="http://www.titanicbrewery.co.uk/_images/_product/clip/40.png" alt="Titanic Stout - Pump logo">
+				            </a>
+				            <h3>Stout</h3>
+				            <p><b>ABV 4.5%</b></p>
+				            <p>A true old fashioned stout. A dark combination of malt and roast with some hops. Strongly flavoured and well balanced.</p>
+				        </div>
+				    </li>
+				    <li class="span3">
+				        <div class="thumbnail">
+				            <a href="http://www.titanicbrewery.co.uk/p/our-beers/titanic-beer-white-star.html" alt="More about Titanic White Star">
+				                <img src="http://www.titanicbrewery.co.uk/_images/_product/clip/42.png" alt="Titanic White Star - Pump logo">
+				            </a>
+				            <h3>White Star</h3>
+				            <p><b>ABV 4.8%</b></p>
+				            <p>A light refreshing distinctively hoppy beer with a freshness that belies its strength, so easy to drink it will fool all but the crustiest of sea dogs.</p>
+				        </div>
+				    </li>
+				    <li class="span3">
+				        <div class="thumbnail">
+				            <a href="http://www.titanicbrewery.co.uk/p/our-beers/titanic-beer-anchor.html" alt="More about Titanic Anchor">
+				                <img src="http://www.titanicbrewery.co.uk/_images/_product/clip/39.png" alt="Titanic Anchor - Pump logo">
+				            </a>
+				            <h3>Anchor</h3>
+				            <p><b>ABV 4.1%</b></p>
+				            <p>This impressive russet gold beer has a strong fruity aroma. Bitterness in the initial taste slips gently from the mooring to allow the full impact of the hops to burst through.</p>
+				        </div>
+				    </li>
+				    <li class="span3">
+				        <div class="thumbnail">
+				            <a href="http://www.titanicbrewery.co.uk/p/our-beers/titanic-beer-iceberg-draught-beer.html" alt="More about Titanic Iceberg">
+				                <img src="http://www.titanicbrewery.co.uk/_images/_product/clip/1.png" alt="Titanic Iceberg - Pump logo">
+				            </a>
+				            <h3>Iceberg</h3>
+				            <p><b>ABV 4.1%</b></p>
+				            <p>A combination of Maris Otter pale malt and fine wheat malt, give this refreshing beer real zest. Add refreshing Yakima Galena and Cascade hops and what you get is a fantastic wheat beer that will hole any passing thirst.</p>
+				        </div>
+				    </li>
+				    <li class="span3">
+				        <div class="thumbnail">
+				            <a href="http://www.titanicbrewery.co.uk/p/our-beers/titanic-beer-captain-smiths.html" alt="More about Titanic Captain Smiths">
+				                <img src="http://www.titanicbrewery.co.uk/_images/_product/clip/41.png" alt="Titanic Captain Smiths - Pump logo">
+				            </a>
+				            <h3>Captain Smiths</h3>
+				            <p><b>ABV 5.2%</b></p>
+				            <p>A red/Brown, full bodied beer hoppy and bitter with a sweetness and roast malt flavour and a good strong finish. Named after one of the most famous of sea captains of all time - Captain Edward Smith, who was born in Stoke on Trent.</p>
+				        </div>
+				    </li>
+				    <li class="span3">
+				        <div class="thumbnail">
+				            <a href="http://www.titanicbrewery.co.uk/p/our-beers/titanic-beer-steerage.html" alt="More about Titanic Steerage">
+				                <img src="http://www.titanicbrewery.co.uk/_images/_product/clip/36.png" alt="Titanic Steerage - Pump logo">
+				            </a>
+				            <h3>Steerage</h3>
+				            <p><b>ABV 3.5%</b></p>
+				            <p>Steerage passengers paid the least to travel aboard the Titanic but still found themselves surrounded by luxury they could never have dreamed of. This beer embodies the opulence that using only the finest ingredients brings, sit back relax and enjoy the trip that this refreshing clean drinking, hoppy golden bitter brings, then let the fruit, malt and predominantly hops carry through to the aftertaste.</p>
+				        </div>
+				    </li>
+				</ul>
+                
+                <h1>Our 2012 Festival Ales</h1>
+                <p>(You can expect a similar range in 2013)</p>
+				<div class="row"><div class="span12"><h3>Pavillion Pale Ale</h3><p><b>ABV 4.5%. Banktop Brewery, Bolton</b>. Created shortly after the brewery moved site to a tennis club pavilion, this pale ale has a big fruity flavour with a peppery hoppiness and a dry, bitter yet fruity finish.</p></div></div>
+				<div class="row"><div class="span12"><h3>Combine Harvest</h3><p><b>ABV 4.4%. Batemans Brewery, Wainfleet, Lincolnshire</b>. A unique multigrain beer, which is a combination of malted barley, oats wheat and rye, creating a light coloured refreshing beer with a dry/sweet character and hints of citrus.</p></div></div>
+				<div class="row"><div class="span12"><h3>Sunny Daze</h3><p><b>ABV 3.6%. Big Lamp Brewery, Newcastle upon Tyne</b>. This is a very light coloured beer, well hopped with Czechoslovakian styrian Goldings. Ideal for summer sessions.</p></div></div>
+				<div class="row"><div class="span12"><h3>BFG</h3><p><b>ABV 4.2%. Black Country Brewery, Lower Gornal</b>. A straw coloured quaffing beer, with an impressive bold citrus hop aroma, fruity balanced sweetness and a lingering refreshing aftertaste.</p></div></div>
+				<div class="row"><div class="span12"><h3>Fireside</h3><p><b>ABV 5%. Black Country Brewery, Lower Gornal</b>. A well rounded premium bitter,amber in colour, clean in taste, leading to a pleasant dry rewarding finish.</p></div></div>
+				<div class="row"><div class="span12"><h3>BG Sips</h3><p><b>ABV 4%. Blue Monkey Brewery, Nottingham</b>. A pale and intensely hoppy beer. Enticing tropical fruit aromas, finished with a good level of thirst quenching, almost peppery bitterness.</p></div></div>
+				<div class="row"><div class="span12"><h3>Damson Porter</h3><p><b>ABV 4.5%. Burton Bridge Brewery, Burton on Trent</b>. Fruity beer with a distinctive bitter-sweet after palate</p></div></div>
+				<div class="row"><div class="span12"><h3>Screech Owl</h3><p><b>ABV 5.4%. Castle Rock Brewery, Nottingham</b>. Originally one of the 12 ‘Natural Selection’ brews back in October 2008 to support the Nottinghamshire Wildlife Trust’s Adopt a Species Campaign, it immediately won the Society of Independent Brewers (Midlands) Supreme Champion Beer award at the Robin Hood Beer Festival and followed this success by winning the SIBA National Strong Bitter Title. Brewed to export strength this strong well hopped India Pale Ale has become a firm favourite with followers of the style.</p></div></div>
+				<div class="row"><div class="span12"><h3>Blueberry Ale</h3><p><b>ABV 5%. Coach House Brewery, Warrington</b>. A traditionally brewed beer but with the addition of fresh Blueberries and natural Blueberry flavouring. The beer is a wonderful pale golden colour with a light hoppy aroma and a distinctly fruity aftertaste.  Currently SIBA National Gold MedalWinner 2011 – Voted Best Speciality Beer in the Country.</p></div></div>
+				<div class="row"><div class="span12"><h3>Golden Newt</h3><p><b>ABV 4.1%. Elgoods Brewery, Wisbech</b>. Pale in colour with prominent hoppy palate and full flavoured finish, Golden Newt is a pale session bitter of 4.1% ABV.</p></div></div>
+				<div class="row"><div class="span12"><h3>Pheasant Plucker</h3><p><b>ABV 4.2%. Fuzzy Duck Brewery, Poulton le Fylde</b>. Golden beer with a slightly spicy taste and a citrus finish from the late addition of Cascade hops</p></div></div>
+				<div class="row"><div class="span12"><h3>Cunning Stunt</h3><p><b>ABV 4.3%. Fuzzy Duck Brewery, Poulton le Fylde</b>. Golden coloured single-hop beer brewed with American Willamette hops. The rub of the hops gives an estery/blackcurrant/herbal aroma.</p></div></div>
+				<div class="row"><div class="span12"><h3>XB</h3><p><b>ABV 4.1%. Holdens Brewery, Dudley</b>. A pale golden brew, with slight sweetness balanced by Fuggles hop notes. There is a good hop aroma too. The finish is slightly malty</p></div></div>
+				<div class="row"><div class="span12"><h3>Edge</h3><p><b>ABV 4.2%. Kinver Brewery, Kinver</b>. Named after a local beauty spot and at 4.2% is a light hoppy bitter beer.</p></div></div>
+				<div class="row"><div class="span12"><h3>Khyber</h3><p><b>ABV 5.8%. Kinver Brewery, Kinver</b>. Strong and bitter 5.8% in true IPA fashion</p></div></div>
+				<div class="row"><div class="span12"><h3>Cwrw Gorslas</h3><p><b>ABV 4%. Kite Brewery, Camarthen</b>. ﻿An accomplished balance of spicy resinous hop aroma. The bitterness remains into the finish with dry fruit notes.</p></div></div>
+				<div class="row"><div class="span12"><h3>Stone Cutter</h3><p><b>ABV 3.7%. Lymestone Brewery, Stone</b>. From the very first draught, this pale hoppy ale will slake your thirst. A fusion of Maris Otter malts and Pilot and Fuggles hops explode on the palate as biscuit and juicy fruit flavours give way to citrus and berry hops, good hop aroma and hoppy after taste. A superb summer beer.</p></div></div>
+				<div class="row"><div class="span12"><h3>Stone Faced</h3><p><b>ABV 4%. Lymestone Brewery, Stone</b>. Pale and Dark Crystal Maris Otter malts unite to embrace a motherland of chewy toffee while fruits and berry flavours rush in. Styrian Goldings from the East and Nugget Hops from the West are allied in perfect harmony as pine and citrus hop flavours caress the taste buds.</p></div></div>
+				<div class="row"><div class="span12"><h3>Pendle Witches Brew</h3><p><b>ABV 5.1%. Moorhouse Brewery, Burnley</b>. A full malty flavoured beer with a crisp sweet fruity aftertaste and soft citrus nose</p></div></div>
+				<div class="row"><div class="span12"><h3>Outlandish Pale</h3><p><b>ABV 3.9%. Offbeat Brewery, Crewe</b>. It's zany, not your average session beer drinking above it's strength. The Outlandish Pale takes your palate to the extreme with a burst of lemony hoppiness.</p></div></div>
+				<div class="row"><div class="span12"><h3>Silver King</h3><p><b>ABV 4.3%. Ossett, Ossett</b>. This lager-style beer has a crisp, dry flavour and a fruity, citrus aroma.</p></div></div>
+				<div class="row"><div class="span12"><h3>TBA</h3><p><b>ABV TBA%. Purity Brewery, Great Alne, Warks</b>. TBA</p></div></div>
+				<div class="row"><div class="span12"><h3>Flintknapper</h3><p><b>ABV 4.2%. Ramsbury Brewery, Marlborough, Wilts</b>. A select blend of pale ale and chocolate malt – and our use of Goldings hops – have given this smooth ale a rich amber colour and a taste with malty overtones</p></div></div>
+				<div class="row"><div class="span12"><h3>Hop Twister</h3><p><b>ABV 4.5%. Salopian Brewery, Shrewsbury</b>. In 2012 has won silver in the Beer of Britain awards, and Gold in the CAMRA West Midlands Best Bitter awards. The palate is fresh, piercing and focused, with soft malt overtones and pronounced citrus flavours. A strong focus of taut, lemony, grapefruit on the finish which is balanced by a dry bitterness</p></div></div>
+				<div class="row"><div class="span12"><h3>Dark Ruby Mild</h3><p><b>ABV 6%. Sarah Hughes Brewery, Sedgley</b>. An award winning Dark Mild. A truly magnificent pint, it pours a lively dark cherry colour. Aroma hops are low, as you might expect, but this is about malt. Sweet, dark fruit cake taste with a bit of hop for balance. Hefty ABV for a session..although I have been known to try. Possibly too sweet for some, but a real old style mild of depth and complexity.</p></div></div>
+				<div class="row"><div class="span12"><h3>Shepherds Monument</h3><p><b>ABV TBA%. Shugborough Brewery, Stafford</b>. Brewed at Shugborough Hall in the traditional way</p></div></div>
+				<div class="row"><div class="span12"><h3>Mild</h3><p><b>ABV 3.5%. Titanic Brewery, Stoke on Trent</b>. A mild of classic style full of roast malt and balanced by delicate hops. True to type it has a rounded sweetness and a smooth dry finish</p></div></div>
+				<div class="row"><div class="span12"><h3>Iceberg</h3><p><b>ABV 4.1%. Titanic Brewery, Stoke on Trent</b>. A combination of Maris Otter pale malt and fine wheat malt, give this refreshing beer real zest. Add refreshing Yakima Galena and Cascade hops and what you get is a fantastic wheat beer that will hole any passing thirst</p></div></div>
+				<div class="row"><div class="span12"><h3>Triple Screw</h3><p><b>ABV 4.5%. Titanic Brewery, Stoke on Trent</b>. Deeply hoppy, stunningly malty and delightfully smooth,this three pronged attack on the taste buds is a treat for all beer lovers. Propel yourself to the bar for a Triple Screw.</p></div></div>
+				<div class="row"><div class="span12"><h3>Pier 54</h3><p><b>ABV 5.4%. Titanic Brewery, Stoke on Trent</b>. The intended berth for the Titanic when it arrived in New York, Pier 54 still stands today. This beer reflects the very best of US craft brewing, red in colour and with an inviting malty foretaste, the American hops come crashing through to wow those who love hops.</p></div></div>
+				<div class="row"><div class="span12"><h3>Plum Porter</h3><p><b>ABV 4.9%. Titanic Brewery, Stoke on Trent</b>. This beer is dark strong and well rounded; the richness of such a rotund beer is brought to an even keel by the late addition of Goldings hops and natural plum flavouring. Take the opportunity and go for the low hanging fruit, this sumptuous beer really is a plum!</p></div></div>
+				<div class="row"><div class="span12"><h3>Gold Bullion</h3><p><b>ABV 3.8%. TSA Brewery, Stirling</b>. Light golden beer with a nose of fresh peach and lime silky smooth with a sweet citrus and hoppy after taste.</p></div></div>
+				<div class="row"><div class="span12"><h3>Jury</h3><p><b>ABV 4.6%. Draymans, Penkridge</b>. A dark straw pale ale with a good balance of malt and fruityhop on the nose and palate.  An initial sweetness followed by anultimately long bitter finish</p></div></div>
+				<div class="row"><div class="span12"><h3>Sunchaser</h3><p><b>ABV 4.0%. Everards, Leicestershire </b>. A  thirst-quenching beer made in the style of a continental lager. Hence you will find subtle fruit flavours and a little sweetness within.</p></div></div>
+				<div class="row"><div class="span12"><h3>Quaff</h3><p><b>ABV 3.7%%. Woods, Shropshire</b>. A pale and refreshing light bitter with a clean, hoppy finish.</p></div></div>
+
+				<hr />
+				<h2>Our 2012 Festival Ciders</h2>
+				<div class="row"><div class="span12"><h3>Black Rat Cider</h3><p><b>ABV 6%. Moles Brewery, Melksham</b>. A still, medium cider. Slightly cloudy and full flavoured. A traditional cider, full apple flavours, with a pleasant bite and finish. Fermented from straight apple juice with wild yeasts, this is a proper cider.</p></div></div>
+				<div class="row"><div class="span12"><h3>Devon Scumpy</h3><p><b>ABV 6%. Sandford Devon Scrumpy, Crediton, Devon</b>. CAMRA champion cider of Great Britain 2010, A still, medium cider. Slightly cloudy and full flavoured. A traditional cider, full apple flavours, with a pleasant bite and finish. Fermented straight from fresh apple juice with wild yeasts this is proper cider.</p></div></div>
+				<div class="row"><div class="span12"><h3>Perry</h3><p><b>ABV 4.5%. Westons, Much Marcle, Herefordshire</b>. Made from perry pears and fullly matured in old oak vats to develop its strength and traditional character. Free from all artificial colouring, flavouring and sweetening it retains its natural pale colour. English perry made in Herefordshire. Fermented and fully matured in old oak vats to develop an exquisite, delicate, light and fruity character. Softly floral with a clear natural pale straw colour.</p></div></div>
+				<div class="row"><div class="span12"><h3>Medium</h3><p><b>ABV 6%. Burrow Hill, Martock, Somerset</b>. Medium dry Somerset draught cider. Hazy yellow brown colour. A really good, fruity medium cider. perfect level of sweetness, balanced really well with a perfect level of dryness. Edging more towards dry than sweet. Epic apples. About as close to biting into an apple as any cider I’ve ever had. Excellent drying finish. Brilliant stuff.</p></div></div>
+				<div class=""row""><div class=""span12""><h3>Tumbledown</h3><p><b>ABV 5.2%. Snail Bank Tumbledown, Bishops Frome, Worcs</b>. Medium Cider. Hazy amber color, flat. Light apple aroma. The mouthfeel is dry and fairly acidic; it has more vinegar character than apple; the final is very dry. A rough cider, with some interest, but not very skilled.</p></div></div>"
+				<div class="row"><div class="span12"><h3>Kingston Black</h3><p><b>ABV 7.5%. Gwatkins, Hereford</b>. The Kingston Black apple is the most famous apple in the cider making world. Dating back centuries. Gold with no head. The aroma is great, rich sweet apple, really fresh. The body a little less so, its fairly thin despite the ABV, the apple flavour is good and clean though, dry abd fruity. </p></div></div>
+				<!-- InstanceEndEditable -->
+                <!-- -------------------------------------------------------------------------->
+                
+                <hr />
+           		<div class="row">
+                    <div class="span12"></div>
+                    <div class="span4">
+                        <h2>Trafalgar Properties</h2>
+                        <p>We'll be the smartest draymen in the Black Country with our crew t-shirts, which have been sponsored by Trafalgar Properties... </p>
+                        <a data-toggle="modal" class="btn btn-inverse" href="#tshirtSponsor">Tell me more &raquo;</a>
+                        
+                    </div>
+                    <div class="span4"><h2>DSN Accountants Ltd</h2>
+                        <p>Our posh programme has tasting notes for all the ales and ciders and is sponsored by DSN Accountants</p>
+                        <a data-toggle="modal" class="btn btn-inverse" href="#programmeSponsor">Tell me more &raquo;</a>
+                    </div>
+                    <div class="span4">
+                        <h2>Storm Industrial Roofing</h2>
+                        <p>The noisy platform at the front of the hall is the stage. We hope you enjoy the sounds that have been sponsored by Storm Industrial Roofing</p>
+                        <a data-toggle="modal" class="btn btn-inverse" href="#stageSponsor">Tell me more &raquo;</a>
+                    </div>
+                </div>
+                
+                <hr />
+                <footer class="row">
+                    <div class="span4">
+                        &copy; Penkridge and District Roundtable 2013<br/><a href="http://www.liquidjelly.co.uk">Website designed and hosted by LiquidJelly</a><br/>Logo by Anonymous Gary</p>
+                    </div>
+                    <div class="span8 pull-right">
+                        <a title="Contact Form Generator" href="http://www.123contactform.com"><img src="http://www.123contactform.com/images3/banner-123contactform-1.png" alt="Contact Form Generator"></a>
+                    </div>
+                </footer>
+            </div>
+            <!-- modals -->
+            <div id="goldSponsor" class="modal hide fade">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">&times;</a>
+                    <h3><img src="/assets/icons/beer_gold.fw.png"> The Horse and Jockey</h3>
+                </div>
+                <div class="modal-body">
+                    <p>The Horse and Jockey is gaining a reputation as one of the best real ale pubs in Staffordshire. Enjoy real ale, hot and cold food, a beer garden and a traditional pub lounge right in the heart of Penkridge.</p>
+                    <p>With the Horse and Jockey's generous assistance we are one step closer to meeting our fund raising target.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn" data-dismiss="modal">Close</a>
+                </div>
+            </div>
+
+            <div id="tshirtSponsor" class="modal hide fade">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">&times;</a>
+                    <h3>Trafalgar Properties</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Trafalgar Properties opened was established on 1st August 2003. A family run business with over 30 years combined experience in the property market. We specialise in Residential Lettings and Property Management. Offering:-Accompanied viewings, Regular press and internet advertising, Inventory Service, Management Options or Let Only Service.</p>
+                    <div class="sponsorInfo">                
+                        <img class="bs-icon" src="/assets/icons/phone.png" alt="Phone Number"> 01785 716800
+                    </div>
+                    <div class="sponsorInfo">                
+                        <img class="bs-icon" src="/assets/icons/email.png" alt="Email address"> <a href="mailto:karon.shelley@btconnect.com">karon.shelley@btconnect.com</a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <p>With the generous support of Trafalgar Properties we are one step closer to meeting our fund raising target.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn" data-dismiss="modal">Close</a>
+                </div>
+            </div>
+            <div id="programmeSponsor" class="modal hide fade">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">&times;</a>
+                    <h3>DSN Accountants Ltd</h3>
+                </div>
+                <div class="modal-body">
+                    <h4>You'll be the best informed Ale Drinkers in the county with our festival programme</h4>
+                    <p>The programme, which includes all the beer tasting notes and information on all of our excellent sponsors. This is essential festival kit!</p>
+                    <p>
+                        This years programmes have been kindly sponsored by DSN Accountants Ltd, Penkridge based Chartered Accountants. DSN Accountants offers the knowledge, expertise and service of the larger firms but with a more personal service at much lower rates.:
+                        <ul>
+                            <li>Statutory Accounts</li>
+                            <li>Management Accounts</li>
+                            <li>Bookkeeping</li>
+                            <li>Tax returns</li>
+                            <li>CIS refunds</li>
+                            <li>VAT</li>
+                            <li>Payroll</li>
+                            <li>Business startups</li>  
+                        </ul>
+                    </p>
+                    <div class="sponsorInfo">                
+                        <img class="bs-icon" src="/assets/icons/phone.png" alt="Phone Number"> 01785 716658
+                    </div>
+                    <div class="sponsorInfo">                
+                        <img class="bs-icon" src="/assets/icons/email.png" alt="Email address"> <a href="mailto:info@dsna.co.uk">info@dsna.co.uk</a>
+                    </div>
+                    <div class="sponsorInfo">                
+                        <img class="bs-icon" src="/assets/icons/maps.png" alt="Website"> <a href="http://www.dsna.co.uk">www.dsna.co.uk</a>
+                    </div>
+                    <div class="clearfix"></div>        
+                    <p>With the generous support of DSN Accountants we are one step closer to meeting our fund raising target.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn" data-dismiss="modal">Close</a> <a href="http://www.dsna.co.uk" class="btn btn-inverse">Tell me more about DSN Accountants Ltd</a>
+                </div>
+            </div>
+
+            <div id="stageSponsor" class="modal hide fade">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">&times;</a>
+                    <h3>Storm Industrial Roofing</h3>
+                </div>
+                <div class="modal-body">
+                    <h4>There are bands on both Friday and Saturday night. If they blow the roof off the joint our stage sponsor will be able to fix it.</h4>
+                    <p>
+                        Storm Industrial Roofing offer a professional nationwide service on the repair or refurbishment of many types of roofing, side and wall cladding and gutters, also offering a free survey and quotation service.
+                    </p>
+                    <div class="sponsorInfo">                
+                        <img class="bs-icon" src="/assets/icons/phone.png" alt="Phone Number">01543 504127
+                    </div>
+                    <div class="sponsorInfo">                
+                        <img class="bs-icon" src="/assets/icons/email.png" alt="Email address"> <a href="mailto:enquiries@stormindustrialroofing.co.uk">enquiries@stormindustrialroofing.co.uk</a>
+                    </div>
+                    <div class="sponsorInfo">                
+                        <img class="bs-icon" src="/assets/icons/maps.png" alt="Website"> <a href="http://www.stormindustrialroofing.co.uk">www.stormindustrialroofing.co.uk</a>
+                    </div>
+                    <div class="clearfix"></div>        
+                    <p>With the generous support of Storm Industrial Roofing we are one step closer to meeting our fund raising target.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn" data-dismiss="modal">Close</a> <a href="http://www.stormindustrialroofing.co.uk" class="btn btn-inverse">Tell me more about Storm Industrial Roofing Ltd</a>
+                </div>
+            </div>
+
+            <div id="bronzeSponsor" class="modal hide fade">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">&times;</a>
+                    <h3>Barrel Sponsor</h3>
+                </div>
+                <div class="modal-body">
+                    <h4>It's all about the beer!</h4>
+                    <p>The barrel sponsors will get their company name and logo printed and attached to their barrel.</p>
+                    <p>You'll also get:</p>
+                    <ul>
+                        <li>2 x free entry tickets with a welcome drink each (can be used on either night)</li>
+                        <li>1 x A4 advert with logo on barrel</li>
+                        <li>1/6 page advert in the programme</li>
+                        <li>A small advert and link on this website for lead up, duration, and wind down of festival</li>
+                    </ul>
+                    <p>
+                        The cost for this package is just £100.<br />
+                        Don't forget - <b>ALL</b> the profits of this event go to local causes, charities and groups
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn" data-dismiss="modal">Close</a> <a href="sponsor_enquiry.aspx" class="btn btn-warning">I want to know more</a>
+                </div>
+            </div>
+            <!-- /container -->
+            <!-- Le javascript
+                ================================================== -->
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="/assets/js/jquery-1.7.2.min.js"></script>
+    
+            <script src="/assets/js/bootstrap-transition.js"></script>
+            <script src="/assets/js/bootstrap-alert.js"></script>
+            <script src="/assets/js/bootstrap-modal.js"></script>
+            <script src="/assets/js/bootstrap-carousel.js"></script>
+            <script src="/assets/js/bootstrap-tab.js"></script>
+            <script src="/assets/js/jquery.cookie.js"></script>
+            <script src="/assets/js/jquery.cookiecuttr.js"></script>
+            <script type="text/javascript">
+
+                $(document).ready(function () {
+                    // Handler for .ready() called.
+                    $('.headerCarousel').carousel({
+                        interval: 5000
+                    });
+
+                    $.cookieCuttr({
+                        cookieAnalyticsMessage: 'We use cookies, just to track visits to our website, we store no personal details. ',
+                        cookieDeclineButton: true,
+                        cookieDomain: "penkridgebeerfestival.co.uk"
+                    });
+                });
+
+                if (jQuery.cookie('cc_cookie_decline') == "cc_cookie_decline") {
+                    // do nothing 
+                } else {
+                    var _gaq = _gaq || [];
+                    _gaq.push(['_setAccount', 'UA-30915309-1']);
+                    _gaq.push(['_setAllowLinker', true]);
+                    _gaq.push(['_trackPageview']);
+
+                    (function() {
+                        var ga = document.createElement('script');
+                        ga.type = 'text/javascript';
+                        ga.async = true;
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(ga, s);
+                    })();
+                }
+
+            </script>
+        </form>
+    </body>
+<!-- InstanceEnd --></html>

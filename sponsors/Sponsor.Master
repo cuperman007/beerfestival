@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Sponsor.Master.cs" MasterPageFile="Site.Master" Inherits="BeerFestival.Web.SponsorMaster" %>
+<asp:Content runat="server" ContentPlaceHolderID="TitleContent">
+    <asp:ContentPlaceHolder runat="server" ID="TitleContent"></asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="HeadContent">
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent"></asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content runat="server" ContentPlaceHolderID="DescriptionContent">
+    <asp:ContentPlaceHolder runat="server" ID="DescriptionContent"></asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+    <div class="row">
+        <div class="span8">
+            <asp:ContentPlaceHolder ID="PrimaryContent" runat="server" />
+
+        </div>
+        <div class="span4">
+            Our silver sponsors:
+            <h2>eg solutions</h2>
+            <p>We'll be the smartest draymen in the Black Country with our crew t-shirts, which have been sponsored by eg solutions... 
+                <a data-toggle="modal" href="#tshirtSponsor">more &raquo;</a></p>
+            <hr/>
+            <h2>Evans Ash</h2>
+            <p>You'll be the best informed ale drinkers in the county with our festival programme, kindly supplied by Evans Ash...<a data-toggle="modal" href="#programmeSponsor">more
+                &raquo;</a></p>
+            <hr/>
+            <h2>Trafalgar Properties</h2>
+            <p>There will be live bands on both nights, generously supported by Trafalgar Properties...</p>
+            <a data-toggle="modal" href="#stageSponsor">more &raquo;</a>
+            <hr/>
+            <h3>Want to get involved?</h3>
+            <p>We need more beer sponsors...</p>
+            <p><a data-toggle="modal" class="btn btn-mini btn-primary" href="#bronzeSponsor">Tell me more &raquo;</a></p>
+        </div>
+        
+        
+    <div class="span4">
+    </div>
+    </div>
+</asp:Content>

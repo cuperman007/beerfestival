@@ -1,0 +1,107 @@
+﻿/* File Created: April 9, 2012 */
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+      
+*, p, div {          
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.02em;
+}
+
+.hero-unit .logo img {
+    float: left;
+}
+
+.bs-icon {
+  float: left;
+  margin: 7px 10px 0 0;
+  opacity: .8;
+}
+
+[class^="rticon-"],
+[class*=" rticon-"] {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    *margin-right: .3em;
+    line-height: 25px;
+    vertical-align: text-top;
+    background-image: url("../icons/sprite.png");
+    background-position: 25px 25px;
+    background-repeat: no-repeat;
+}
+
+[class^="rticon-"]:last-child,
+[class*=" rticon-"]:last-child {
+    *margin-left: 0;
+}
+
+.rticon-medal-gold { width:25px; height:25px; background-position:0px 0px; }
+.rticon-beer-gold { width:25px; height:25px; background-position:25px 0px; }
+.rticon-ribbon-gold { width:25px; height:25px; background-position:50px 0px; }
+.rticon-trophy-gold { width:25px; height:25px; background-position:75px 0px; }
+
+.rticon-medal-silver { width:25px; height:25px; background-position:0px 25px; }
+.rticon-beer-silver { width:25px; height:25px; background-position:25px 25px; }
+.rticon-ribbon-silver { width:25px; height:25px; background-position:50px 25px; }
+.rticon-trophy-silver { width:25px; height:25px; background-position:75px 25px; }
+
+.rticon-medal-bronze { width:25px; height:25px; background-position:0px 50px; }
+.rticon-beer-bronze { width:25px; height:25px; background-position:25px 50px; }
+.rticon-ribbon-bronze { width:25px; height:25px; background-position:50px 50px; }
+.rticon-trophy-bronze { width:25px; height:25px; background-position:75px 50px; }
+
+/*img.logoPeek { border-bottom: 1px solid silver; float: left; width: 100px; }
+h3.logoPeek { border-bottom: 1px solid silver;float: left;width: 200px; padding-top: 15px; font-size: 1em; }
+p.logoPeek { float: left;width: 200px; margin-left: 100px;font-size: 0.9em; }*/
+
+@media (max-width: 1199px) {
+    .logoPeek { display: block; float: none; width: auto; margin-left: 0; }  
+    img.logoPeek {  margin-top: 20px;  }
+    h3.logoPeek { border-top: 1px solid silver; }
+}
+
+/*@media (min-width: 768px) and (max-width: 979px){ 
+    img.logoPeek {  border-bottom: none; margin-bottom: 0px; width: 100px; }
+    h3.logoPeek { border-top: 1px solid silver;border-bottom: none; width: 225px; padding-top: 5px; font-size: 1em;}
+    p.logoPeek { float: left;margin-left: 0px; }
+}
+
+@media (min-width: 980px) and (max-width: 1199px) 
+{    
+    img.logoPeek { border-bottom: 1px solid silver; float: left; width: 100px; }
+    h3.logoPeek { border-bottom: 1px solid silver;float: left; width: 200px; padding-top: 15px; font-size: 1em; }
+    p.logoPeek { float: left; width: 200px; margin-left: 100px; font-size: 0.9em; }
+}*/
+
+@media (min-width: 1200px) {
+    img.logoPeek { border-bottom: 1px solid silver; float: left; margin-bottom: 10px;width: 130px; }
+    h3.logoPeek { border-bottom: 1px solid silver; float: left; width: 240px; padding-top: 28px;font-size: 1.1em; }
+    p.logoPeek { float: left;  width: 240px; margin-left: 130px;font-size: 1em; }
+}
+
+/* fix for firefox */
+.btn-primary, .btn-danger, .btn-success, .btn-inverse, .btn-warning {    background-image: none;    filter: none;}
+
+
+.sponsorInfo 
+{
+    margin-top: 10px;
+}
+
+.sponsorInfo a {
+    margin-top: 80px;
+}
+
+.sponsorInfo .bs-icon
+{   
+    float:none;
+    clear: both;
+    margin-top: 0px;
+}
+
+small
+{
+    font-size: 0.8em;
+}
