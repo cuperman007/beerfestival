@@ -3,10 +3,14 @@ body {
     padding-top: 60px;
     padding-bottom: 40px;
 }
-      
-*, p, div {          
+
+*, p, div {
     font-family: 'Oxygen', sans-serif;
     font-size: 1.02em;
+}
+
+a {
+  color:#009071;
 }
 
 .hero-unit .logo img {
@@ -57,19 +61,19 @@ h3.logoPeek { border-bottom: 1px solid silver;float: left;width: 200px; padding-
 p.logoPeek { float: left;width: 200px; margin-left: 100px;font-size: 0.9em; }*/
 
 @media (max-width: 1199px) {
-    .logoPeek { display: block; float: none; width: auto; margin-left: 0; }  
+    .logoPeek { display: block; float: none; width: auto; margin-left: 0; }
     img.logoPeek {  margin-top: 20px;  }
     h3.logoPeek { border-top: 1px solid silver; }
 }
 
-/*@media (min-width: 768px) and (max-width: 979px){ 
+/*@media (min-width: 768px) and (max-width: 979px){
     img.logoPeek {  border-bottom: none; margin-bottom: 0px; width: 100px; }
     h3.logoPeek { border-top: 1px solid silver;border-bottom: none; width: 225px; padding-top: 5px; font-size: 1em;}
     p.logoPeek { float: left;margin-left: 0px; }
 }
 
-@media (min-width: 980px) and (max-width: 1199px) 
-{    
+@media (min-width: 980px) and (max-width: 1199px)
+{
     img.logoPeek { border-bottom: 1px solid silver; float: left; width: 100px; }
     h3.logoPeek { border-bottom: 1px solid silver;float: left; width: 200px; padding-top: 15px; font-size: 1em; }
     p.logoPeek { float: left; width: 200px; margin-left: 100px; font-size: 0.9em; }
@@ -85,7 +89,7 @@ p.logoPeek { float: left;width: 200px; margin-left: 100px;font-size: 0.9em; }*/
 .btn-primary, .btn-danger, .btn-success, .btn-inverse, .btn-warning {    background-image: none;    filter: none;}
 
 
-.sponsorInfo 
+.sponsorInfo
 {
     margin-top: 10px;
 }
@@ -95,7 +99,7 @@ p.logoPeek { float: left;width: 200px; margin-left: 100px;font-size: 0.9em; }*/
 }
 
 .sponsorInfo .bs-icon
-{   
+{
     float:none;
     clear: both;
     margin-top: 0px;
